@@ -55,22 +55,6 @@ p{
   font-family:'Montserrat-light'
 }
 
-/* top */
-
-/* 画面のサイズが1028ｐｘより小さい場合のレスポンス */
-@media (max-width:1028px) {
-
-  .big-heading{
-    text-align: center;
-  }
-
-  .top-image{
-    transform: rotate(0);
-    position: static;
-    padding-top: 3%;
-  }
-}
-
 /* title */
 #title .container-fluid {
   padding: 3% 7% 10%;
@@ -170,5 +154,20 @@ p{
   padding: 10px;
   font-size: 20px;
 }
+
+/* 画面のサイズが1028ｐｘより小さい場合のレスポンス */
+@media (max-width:1028px) {
+
+  .big-heading{
+    text-align: center;
+  }
+
+  .top-image{
+    transform: rotate(0);
+    position: static;
+    padding-top: 3%;
+  }
+}
+
 
 /* ＼(^ω^)／ */
