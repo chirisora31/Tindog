@@ -158,7 +158,7 @@ p{
 /* 画面のサイズが1028ｐｘより小さい場合のレスポンス */
 @media (max-width:1028px) {
 
-  .big-heading{
+  #title .row{
     text-align: center;
   }
 
